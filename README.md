@@ -1,6 +1,4 @@
-Absolutely! Here's a polished and informative `README.md` file tailored for your PHP user registration and login system:
 
-```markdown
 # 🔐 PHP User Registration & Login System
 
 This project implements a simple yet functional user registration and login system using PHP and MySQL. It includes basic session management and input handling, wrapped in a clean UI with HTML and CSS.
