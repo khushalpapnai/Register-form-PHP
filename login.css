@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    background: linear-gradient(135deg, #007bff, #00d4ff); /* Gradient background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.1); /* Translucent white background */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="password"]:focus {
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background: linear-gradient(90deg, #007bff, #00d4ff); /* Button gradient */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
