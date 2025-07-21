@@ -81,7 +81,4 @@ Made with ❤️ by [@Khushal](https://lilninjakhushal.kesug.com)
 
 ---
 
-Feel free to enhance or build on this project. Pull requests and feedback are welcome!
-```
 
-Let me know if you want to add password hashing, email verification, or database export next—I’ve got ideas for each.
